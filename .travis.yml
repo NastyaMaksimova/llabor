@@ -2,9 +2,7 @@ language: java
 
 jdk:
   - oraclejdk8
+matrix:
+  - JOB="./gradlew build"
 
-script: ant test
-
-
-#before_install:
-# - cd java
+script: "$JOB"
