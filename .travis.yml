@@ -1,9 +1,10 @@
 language: java
-sudo: false
+
 jdk:
-- oraclejdk8
-email: false
-branches:
- only:
- - master
-ant: run
+  - oraclejdk8
+
+script: ant test
+
+
+#before_install:
+# - cd java
