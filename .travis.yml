@@ -4,4 +4,4 @@ jdk:
 matrix:
   - JOB="./gradlew build"
 script: "$JOB"
-!https://travis-ci.com/Raydonme/llabor.svg?branch=master!:https://travis-ci.com/Raydonme/llabor
+[![Build Status](https://travis-ci.com/Raydonme/llabor.svg?branch=master)](https://travis-ci.com/Raydonme/llabor)
